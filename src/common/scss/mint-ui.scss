@@ -1,0 +1,122 @@
+.mint-cell-text {
+  font-size: 0.4rem;
+  color: #232326;
+}
+
+.mint-field-core {
+  font-size: 0.4rem;
+  -webkit-user-select:auto; /*webkit浏览器*/
+  user-select:auto;
+  -o-user-select:auto;
+  -ms-user-select:auto;
+}
+
+#user-info .mint-cell-text{
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+#user-info .mint-cell-allow-right{
+  font-size: 0.42666rem;
+  font-weight: 600;
+  color: white;
+  filter: drop-shadow(-0.2rem 0 #FFF);
+}
+
+#user-info .mint-cell-label {
+  font-size: 0.42666rem;
+  font-weight: 400;
+  color: white;
+}
+#user-info .mint-cell {
+  border: none;
+}
+
+.mint-cell-value{
+  font-size:0.4rem;
+}
+.mint-switch-input:checked + .mint-switch-core{
+  background-color: rgb(85, 139, 2);
+  border-color: rgb(85, 139, 2);
+}
+
+.mint-button--primary{
+  background-color: #427E43;
+}
+
+.mint-header{
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  height: 1.5rem;
+  font-size: 0.5rem;
+  border-bottom: 1px solid gainsboro;
+}
+
+.right{
+  background-color: rgb(85, 139, 2);
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 0.6rem;
+  height: 1.2rem;
+  border-radius: 0.6rem;
+}
+.nav-item {
+  margin:0 0.3rem;
+}
+
+.nav-bac{
+  background-color: #fff;
+}
+
+.btns-btn{
+  text-align: right;
+  margin:0px 0px 0px auto;
+  width: 2rem;
+  /* float: right; */
+  height: 0.8rem;
+  border: 1px solid gainsboro;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.color{
+  border: 1px solid rgb(77, 134, 0);
+}
+.margin-right{
+  margin: 0px -4rem 0px auto;
+}
+.margin-right1{
+  margin: 0px -2rem 0px auto;
+}
+.btns-order{
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid gainsboro;
+  height: 1.5rem;
+  align-items: center;
+  text-align: right;
+  width: 90%;
+  margin-left: 5%;
+}
+.nothing{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 20%;
+}
